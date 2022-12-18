@@ -1,0 +1,368 @@
+
+.forall{
+    font-family: 'Roboto';
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    height: 30px;
+    width: 170px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.main-text{
+    background-color: #f6f6f6;
+    text-align: center;
+    align-items: center;
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 50px 0px ;
+}
+
+.maintxt1{
+    text-align: center;
+    font-size: x-large;
+    margin: 0px 40px 15px 40px;
+    padding: 0px 30px 0px 30px;
+}
+
+.maintxt2{
+    font-weight: normal;
+    font-size: larger;
+    margin: 0px 30px 30px 30px;
+    color: #7d7d7d;
+    text-align: center
+}
+
+.button-s{
+    width: 50%;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px;
+    color: white;
+    box-shadow: 0px 3px 3px 0px rgb(80 80 80);
+    background: #ff79da;
+    background: linear-gradient(0deg, #9356dc 32%, #ff79da 100%);
+}
+
+.button-s-txt{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+}
+
+
+.searchstyle, .inputsearch {
+    background-color: #eaeaea;
+    }
+
+.searchstyle{
+    box-shadow: 0px 0px 5px 0px rgb(80, 80, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.searchstyle i {
+    padding-left: 92px;
+}
+
+.inputsearch{
+    border: none;
+    padding-left:15px ;
+    height: 35px;
+}
+
+.running{
+    margin-left: 3%;
+}
+
+.running-button{
+    border-radius: 25px 25px 25px 25px;
+    border: 1px;
+    background-color: #f6f6f6;
+    width: 90%;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 3px 0px #e2e2e2;
+    margin: 15px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.running-button i {
+    padding: 0px 40px 0px 30px;
+    color: #7d7d7d;
+}
+
+.running-number{
+    border-radius: 50px 50px 50px 50px;
+    background-color: #9356dc;
+    height: 20px;
+    width: 20px;
+    color: white;
+    margin-left: -8px;
+}
+
+.purple{
+    background-color: #f5edff !important ;
+}
+
+.purple i {
+    color: #9356dc ;
+}
+
+.runing-txt2{
+    font-weight: bold;
+}
+
+.food{
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+
+.icons-card{
+    font-size:x-large;
+}
+
+.banner{
+    position: absolute;
+    text-align: center;
+    color: #34a98c;
+    font-weight: bold;
+    background-color: #99e2d0;
+    top: 10px;
+    right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+
+}
+
+.foot-card{
+    width: 100%;
+    line-height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.food-txt1{
+    margin-left: 3%;
+
+}
+
+.food-txt2{
+    width: 70%;
+}
+
+.food-txt3{
+    color: black;
+    font-weight: bold;
+    font-size: 20px
+
+}
+
+.food-txt4{
+    color: grey;
+    font-size: 19px;
+}
+
+
+.coloring{
+    background-color: #353535 ;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;  
+    
+}
+
+.foot-police{
+    font-family: 'Shrikhand';
+    color: white;
+}
+
+.footer-txt {
+    color: white;
+    line-height: 15px;
+    margin: 5px;
+    }
+
+.mailto{
+    font-style: normal;
+    text-decoration: none;
+    color: white !important;
+}
+
+.try{
+    display: block;
+    position: relative;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+    margin-bottom: 32px;
+    border-radius: 16px;
+    height: 100%;
+    margin: 16px;
+}
+
+.try .pic{
+    width: 100%;
+    height: 192px;
+    border-radius: 16px 16px 0 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+/***PC**/
+
+@media all and (min-width: 1024px){
+    .main-text {
+        background-color: #f6f6f6;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        padding: 30px 0px 50px 0px;
+        flex-direction: column;
+    }
+
+    .button-s{
+        width: 30%;
+        height: 50px;
+        border-radius: 50px 50px 50px 50px;
+        border: 1px;
+        color: white;
+        box-shadow: 0px 3px 3px 0px rgb(80 80 80);
+        background: #ff79da;
+        background: linear-gradient(0deg, #9356dc 32%, #ff79da 100%);
+    }
+
+    .running{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .runnin-txt1{
+        margin-left: 40%;
+        margin-right: 40%;
+        padding-left: 34px;
+    }
+    
+    .food-txt1{
+        margin-right: 40%;
+        margin-left: 40%;
+        margin-bottom: 5%;
+        padding-left: 60px;
+    }
+
+    .banner{
+        position: absolute;
+        background-color: #99e2d0;
+        color: #39a98e;
+        margin-top: 1%;
+        height: 4%;
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 18%;
+    }
+
+    .running-button {
+        border-radius: 25px 25px 25px 25px;
+        border: 1px;
+        background-color: #f6f6f6;
+        width: 30%;
+        height: 60px;
+        text-align: center;
+        margin-bottom: 15px;
+        box-shadow: 0px 3px 3px 0px rgb(80 80 80);
+        margin: 15px 0px 0px 10px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+/****Animation*****/
+
+.link > .empty
+{
+    display: block!important;
+}
+.link > .no-empty
+{
+    display: none!important;
+    background: rgb(147,86,220);
+    background: linear-gradient(0deg, rgba(147,86,220,1) 32%, rgba(236,129,206,0.5989445910290238) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.link:hover > .empty
+{
+    display: none!important;
+}
+.link:hover > .no-empty
+{
+    display: block!important;
+}
+
+/****LOADER***/
+
+.loading {
+    background-color:white ;
+    height: 100%;
+    line-height: 650px;
+    font-family: "Shrikhand", sans-serif;
+    color: #39a98e;
+    font-size: 230%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+    transition: 4s;
+    animation: loader 4s both;
+  }
+  
+  @keyframes loader {
+    0% {
+      opacity: 3;
+      visibility: visible;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
